@@ -11,7 +11,7 @@
   - Chuẩn hóa chính sách ngoại lệ và `TC-MISSING-01` bám sát tinh thần của `issue #15` (thiếu tuổi quy về trạng thái `THEO_DOI`).
   - Khắc phục lỗi định dạng Markdown (thiếu dấu đóng khối code ` ``` `) trong `artifacts/TEST_REPORT.md` và lọc bỏ các ký hiệu thừa.
   - Thêm file cấu hình `pytest.ini` (`pythonpath = .`) vào thư mục gốc để khắc phục triệt để lỗi `ModuleNotFoundError` trên cả môi trường nội bộ lẫn GitHub Actions CI.
-  - **Link commit minh chứng trên fork:** `[Dán link commit trên fork của nhóm tại đây]`
+  - **Link commit minh chứng trên fork:** `[50001a115a88d65703c9735dd75b2b0cf51be17a]`
 
 ---
 
@@ -22,4 +22,4 @@
   - Xây dựng thành công bộ unit test tự động trong `tests/test_classifier.py` bao phủ các ca chuẩn, ranh giới và ngoại lệ.
   - Chạy thành công lệnh `pytest -q` từ clean checkout (`4 passed`).
   - Tích hợp thành công cơ chế Audit Trail tuân thủ chuẩn 4 trường bắt buộc `[Timestamp, User_UUID, Action_Type, Status]` với chính sách bảo mật Zero PII Logging.
-  - **Link commit minh chứng Checkpoint 2:** `[Dán link commit trên fork của nhóm tại đây]`
+  - **Link commit minh chứng Checkpoint 2:** `[50001a115a88d65703c9735dd75b2b0cf51be17a]`
