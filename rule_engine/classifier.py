@@ -116,7 +116,7 @@ def _write_audit(user_uuid: str, action_type: str, status: str):
     Cam kết tuyệt đối không ghi nhận PII hay triệu chứng thô.
     """
     audit_record = [
-        datetime.datetime.utcnow().isoformat(),
+        datetime.datetime.now(datetime.timezone.utc).isoformat(),
         str(user_uuid),
         str(action_type),
         str(status)
