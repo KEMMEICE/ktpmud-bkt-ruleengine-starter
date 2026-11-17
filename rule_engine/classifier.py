@@ -59,7 +59,7 @@ def classify(data: dict) -> dict:
     # --- Kịch bản R03 ---
     elif not matched_rule and di_nguyen_hit and (kho_tho or tim_mach):
         matched_rule = "R03"
-        rule_desc = "Kích hoạt R03: Tiếp xúc dị nguyên đường hít kèm triệu chứng hô hấp/tuần hoàn."
+        rule_desc = f"Kích hoạt R03: Tiếp xúc dị nguyên đường hít kèm triệu chứng hô hấp/tuần hoàn."
 
     # Nếu không thỏa mãn bất kỳ kịch bản nào -> THEO_DOI
     if not matched_rule:
